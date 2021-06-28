@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="/images/w-logo.png" />
+    <link rel="stylesheet" href="/vendors/gaxon/styles.css" />
+    <link rel="stylesheet" href="/vendors/flag/sprite-flags-24x24.css" />
+    <link rel="stylesheet" href="/vendors/noir-pro/styles.css" />
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/xy.js"></script>
+    <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script src="https://www.amcharts.com/lib/3/funnel.js"></script>
+    <script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+    <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/continentsLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3.4.0/css/grid.min.css" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charSet="utf-8" />
+    <title>K-iDrone</title>
+    <meta name="next-head-count" content="3" />
+    <link rel="preload" href="/_next/static/css/f5871e1a.a14d9fbb.chunk.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/f5871e1a.a14d9fbb.chunk.css" data-n-g="" />
+    <link rel="preload" href="/_next/static/css/df2b49d4.aeef78b3.chunk.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/df2b49d4.aeef78b3.chunk.css" data-n-g="" />
+    <link rel="preload" href="/_next/static/css/styles.e8c482d6.chunk.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/styles.e8c482d6.chunk.css" data-n-g="" /><noscript
+        data-n-css=""></noscript>
+    <link rel="preload" href="/_next/static/chunks/main-24bab9de16a8fbbe2b5b.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/webpack-f8fdd90c555577fb1a66.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/framework.0d373e6f481ee0c85e06.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/f5871e1a.bf95392b97b53acd250c.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/df2b49d4.0a9df40964f45812aedb.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/commons.f2062c5c703e4c988bfe.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/94c933bce1b5d81929580ef4cdf73c3206111e8e.e92be3633d1069337cc5.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/73b073f63e354825f3d61b75f0a66901a07e1b6b.ffbaa3a8d8ffe788e8c7.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/styles.232bfc2b624c8126708d.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/pages/_app-7a265ac324f6163223c0.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/8999574669b485f25bfb24e17d8ff72bb3f98a4c.e1a8fff55f7cac4f4807.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/dcf78e960b95e4f5b2747be21f59c89d38f47b67.cc4fbfb60484e468ddc1.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/pages/index-da67cab1ba56afbb67b5.js" as="script" />
+</head>
+
+<body>
+    <div id="__next">
+        <div class="notifications-component ">
+            <div class="notification-container--top-full"></div>
+            <div class="notification-container--bottom-full"></div>
+            <div class="notification-container--top-left"></div>
+            <div class="notification-container--top-right"></div>
+            <div class="notification-container--bottom-left"></div>
+            <div class="notification-container--bottom-right"></div>
+            <div class="notification-container--top-center"></div>
+            <div class="notification-container--center">
+                <div class="flex-center"></div>
+            </div>
+            <div class="notification-container--bottom-center"></div>
+        </div>
+        <div class="loader ">
+            <div style="height:100px;width:100px"><img src="/images/Drone.gif" alt="loader" /></div>
+        </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+			{"props":{"isServer":true,"initialState":{"settings":{"navCollapsed":true,"navStyle":"NAV_STYLE_FIXED","themeType":"THEME_TYPE_SEMI_DARK","pathname":"","width":1367,"isDirectionRTL":false,"locale":{"languageId":"thailand","locale":"th","name":"ไทย","icon":"th","locale_json":{"en":null,"th":null},"list_json":["en","th"]},"breadcam":[]},"auth":{"authUser":null,"loadUser":true,"token":null,"menu":[]},"common":{"error":"","loading":false,"message":""},"master":{"province":[],"district":[],"subdistrict":[],"nametitle":[]}},"initialProps":{}},"page":"/","query":{},"buildId":"iNvolBT4OARb0AZPpUOdZ","nextExport":true,"isFallback":false,"appGip":true}
+		</script>
+    <script nomodule="" src="/_next/static/chunks/polyfills-23a2456a82a0724bd495.js"></script>
+    <script src="/_next/static/chunks/main-24bab9de16a8fbbe2b5b.js" async=""></script>
+    <script src="/_next/static/chunks/webpack-f8fdd90c555577fb1a66.js" async=""></script>
+    <script src="/_next/static/chunks/framework.0d373e6f481ee0c85e06.js" async=""></script>
+    <script src="/_next/static/chunks/f5871e1a.bf95392b97b53acd250c.js" async=""></script>
+    <script src="/_next/static/chunks/df2b49d4.0a9df40964f45812aedb.js" async=""></script>
+    <script src="/_next/static/chunks/commons.f2062c5c703e4c988bfe.js" async=""></script>
+    <script src="/_next/static/chunks/94c933bce1b5d81929580ef4cdf73c3206111e8e.e92be3633d1069337cc5.js" async="">
+    </script>
+    <script src="/_next/static/chunks/73b073f63e354825f3d61b75f0a66901a07e1b6b.ffbaa3a8d8ffe788e8c7.js" async="">
+    </script>
+    <script src="/_next/static/chunks/styles.232bfc2b624c8126708d.js" async=""></script>
+    <script src="/_next/static/chunks/pages/_app-7a265ac324f6163223c0.js" async=""></script>
+    <script src="/_next/static/chunks/8999574669b485f25bfb24e17d8ff72bb3f98a4c.e1a8fff55f7cac4f4807.js" async="">
+    </script>
+    <script src="/_next/static/chunks/dcf78e960b95e4f5b2747be21f59c89d38f47b67.cc4fbfb60484e468ddc1.js" async="">
+    </script>
+    <script src="/_next/static/chunks/pages/index-da67cab1ba56afbb67b5.js" async=""></script>
+    <script src="/_next/static/iNvolBT4OARb0AZPpUOdZ/_buildManifest.js" async=""></script>
+    <script src="/_next/static/iNvolBT4OARb0AZPpUOdZ/_ssgManifest.js" async=""></script>
+</body>
+
+</html>
